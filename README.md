@@ -25,12 +25,7 @@ TODO
 - library of C functions used to simplify simulation and implementation of digital controlers
 - functions had 2 modes 1. Simulation 2. Hardware
 - Software to hardware testing requires no code modification
-
-### Initialize()
-- Defines sampling frequency
-- Simulation mode: determines appropriate mathematical model for simulating behaviour of the motor module
-- Must be called before other DLaB functions
-
+- 
 ## Features
 List the main features of your project. This could include:
 - Digital PID control design using Ultimate Sensitivity Method
