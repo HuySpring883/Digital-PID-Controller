@@ -12,14 +12,31 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-Implementation of digital PID controllers of both basic and anti-windup to control the position of a DC motor using concurrent programming with Pthreads.
+TODO
+
+## Notes
+- controlling DC moter
+- process of sampling; converting continuous-time signal into a sequence of numbers.
+- process of data reconstruction; converting a sequence of numbers into a continuous-time signal.
+- micro-controller board is used to perform processes; D/A converters, optical encoder
+- optical encoder used to handle digital outputs of a integer counter; produces angular position of motor's load shaft
+
+## DLaB Library Functions
+- library of C functions used to simplify simulation and implementation of digital controlers
+- functions had 2 modes 1. Simulation 2. Hardware
+- Software to hardware testing requires no code modification
+
+### Initialize()
+- Defines sampling frequency
+- Simulation mode: determines appropriate mathematical model for simulating behaviour of the motor module
+- Must be called before other DLaB functions
 
 ## Features
 List the main features of your project. This could include:
-- Digital PID control
-- Anti-windup mechanism
+- Digital PID control design using Ultimate Sensitivity Method
+- Simulation functions used for testing
 - Concurrent programming with Pthreads
-- Real-time control of a DC motor
+- Real-time control of a physical DC motor hardware
 
 ## Installation
 Provide step-by-step instructions on how to set up and install your project. Include any prerequisites and dependencies. For example:
