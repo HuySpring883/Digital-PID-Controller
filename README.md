@@ -86,5 +86,3 @@ Special thanks to [Name] for their assistance in developing this project.
 ```
 
 ---
-
-Feel free to customize this template to suit the specifics of your project!
